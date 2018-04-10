@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p3u-Jb-5Et">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--natsu-->
+        <scene sceneID="ByV-P8-pvw">
+            <objects>
+                <navigationController id="WSv-BT-sF7" userLabel="natsu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="夏" image="t-natsu" id="8s2-NE-N1c"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yPJ-U0-QIa">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MGL-XK-2eu" kind="relationship" relationship="rootViewController" id="JxL-3A-kJZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxY-7J-BvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-951" y="48"/>
+        </scene>
+        <!--aki-->
+        <scene sceneID="gG5-f1-ViR">
+            <objects>
+                <navigationController id="64b-FG-Sva" userLabel="aki" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="秋" image="t-aki" id="Kv2-yh-4o2"/>
+                    <navigationItem key="navigationItem" id="kEt-Rv-YkK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uwK-vn-WB6">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AgE-ZR-a0P" kind="relationship" relationship="rootViewController" id="PXz-y4-gRA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ew2-c7-dcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1764" y="745"/>
+        </scene>
+        <!--fuyu-->
+        <scene sceneID="8WE-ca-5Jb">
+            <objects>
+                <navigationController id="xeG-Cg-QIJ" userLabel="fuyu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="冬" image="t-fuyu" id="TAx-Pz-eQJ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tWE-Cw-1zs">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="faz-lg-s5D" kind="relationship" relationship="rootViewController" id="3hQ-0H-8jb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Bv-ms-E4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-951" y="1443"/>
+        </scene>
+        <!--hajime-nav-->
+        <scene sceneID="Mos-nc-BmF">
+            <objects>
+                <navigationController id="OcA-wM-TmM" userLabel="hajime-nav" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" image="t-hajime" id="DgF-ed-Rd1"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ux0-gH-k9z">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IRH-Ob-dGZ" kind="relationship" relationship="rootViewController" id="BAE-YE-Xnk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ht-jb-Gky" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2540" y="-1118"/>
+        </scene>
+        <!--hajime-->
+        <scene sceneID="D68-Lq-imx">
+            <objects>
+                <viewController id="IRH-Ob-dGZ" userLabel="hajime" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TYA-Ef-aGC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hajime" translatesAutoresizingMaskIntoConstraints="NO" id="ape-CI-e17">
+                                <rect key="frame" x="0.0" y="85" width="375" height="642"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgv-H5-BkL">
+                                <rect key="frame" x="126" y="355" width="58" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="夏" backgroundImage="B_natsu">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MGL-XK-2eu" kind="show" id="3U8-A2-met"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1a-4r-m4B">
+                                <rect key="frame" x="192" y="355" width="58" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="秋" backgroundImage="B_aki">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AgE-ZR-a0P" kind="show" id="GPi-k4-b31"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RE-FS-xkS">
+                                <rect key="frame" x="60" y="355" width="58" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="春" backgroundImage="B_haru">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7YF-5O-uQm" kind="show" id="YEc-5P-IH5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgB-je-wAJ">
+                                <rect key="frame" x="258" y="355" width="58" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="冬" backgroundImage="B_fuyu">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="faz-lg-s5D" kind="show" id="ZhX-3M-8IB"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ji-hajime" translatesAutoresizingMaskIntoConstraints="NO" id="imR-wX-4Dj">
+                                <rect key="frame" x="108" y="260" width="192" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="AHE-um-mvV"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="春" image="t-haru" id="RGu-aQ-AJM"/>
+                    <navigationItem key="navigationItem" title="年年歲歲" id="OhN-ki-LFd" userLabel="年年歲歲"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c9u-K2-S1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1764" y="-1118.7192118226601"/>
+        </scene>
+        <!--haru-nav-->
+        <scene sceneID="IRQ-jt-YvD">
+            <objects>
+                <navigationController id="KW2-eH-bse" userLabel="haru-nav" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="春" image="t-haru" id="QfZ-0l-Lok"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8FV-Ul-pXp">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="7YF-5O-uQm" kind="relationship" relationship="rootViewController" id="itF-Z5-TLS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jWl-W3-LfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-950" y="-681"/>
+        </scene>
+        <!--initail_tab_bar-->
+        <scene sceneID="CSi-TL-XPE">
+            <objects>
+                <tabBarController id="p3u-Jb-5Et" userLabel="initail_tab_bar" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sfD-bP-h8O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.91642211289999997" green="0.79832878039999999" blue="0.61453653959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OcA-wM-TmM" kind="relationship" relationship="viewControllers" id="juX-Z4-xBr"/>
+                        <segue destination="KW2-eH-bse" kind="relationship" relationship="viewControllers" id="L0q-np-Aa4"/>
+                        <segue destination="WSv-BT-sF7" kind="relationship" relationship="viewControllers" id="vKv-jd-Kka"/>
+                        <segue destination="64b-FG-Sva" kind="relationship" relationship="viewControllers" id="xeZ-2P-lui"/>
+                        <segue destination="xeG-Cg-QIJ" kind="relationship" relationship="viewControllers" id="UhX-xA-by0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jkC-8I-rzf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3242" y="-428"/>
+        </scene>
+        <!--haru3-->
+        <scene sceneID="0x0-eu-Rfp">
+            <objects>
+                <viewController id="8Rq-Qr-pmh" userLabel="haru3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HVH-MG-VZK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="haru" translatesAutoresizingMaskIntoConstraints="NO" id="ue1-7P-Lex">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kvY-e0-CMN" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">江南好，
+風景舊曾諳。[1]
+日出江花紅勝火，
+春來江水綠如藍，[2]
+能不憶江南。</string>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 白居易" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ufS-ig-xyW">
+                                <rect key="frame" x="108" y="176" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《憶江南·江南好》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gl2-S1-JE7">
+                                <rect key="frame" x="93" y="138" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g9d-t2-sTd" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【注釋】　
+①據《樂府雜錄》，此詞又名《謝秋娘》，係唐李德裕為亡姬謝秋娘作。又名《望江南》、《夢江南》等。分單調、雙調兩體。單調二十七字，雙凋五十四字，皆平韻。　
+②諳（音安）：熟悉。　
+③藍：藍草，其葉可製青綠染料。
+【品評】
+　　　此詞寫江南春色，首句“江南好”，以一個既淺切又圓活的“好”字，攝儘江南春色的種種佳處，而作者的讚頌之意與向往之情也儘寓其中。同時，唯因“好”之已甚，方能“憶”之不休，因此，此句又已暗逗結句“能不憶江南”，並與之相關闔。次句“風景舊曾諳”，點明江南風景之“好”，並非得之傳聞，而是作者出牧杭州時的親身體驗與親身感受。這就既落實了“好”字，又照應了“憶”字，不失為勾通一篇意脈的精彩筆墨。三、四兩句對江南之“好”進行形象化的演繹，突出渲染江花、江水紅綠相映的明豔色彩，給人以光彩奪目的強烈印象。其中，既有同色間的相互烘托，又有異色間的相互映襯，充分顯示了作者善於著色的技巧。篇末，以“能不憶江南”收束全詞，既托出身在洛陽的作者對江南春色的無限讚歎與懷念，又造成一種悠遠而又深長的韻味，把讀者帶入餘情搖漾的境界中。
+－－引自李濟洲編著之《全唐詩佳句賞析》http://tshjj.yeah.net/
+日出江花紅勝火①?春來江水綠如藍②?
+能不憶江南
+①日出句：早晨太陽出來以後，照得江邊盛開的花兒，紅豔得比火還要紅。 
+②春來句：藍，用藍草製成的顏料，也叫靛青。春江青碧，好像靛青的顏色一樣，在陽光下泛著綠波。
+這幾句詞是說，春日，朝陽照耀下的江畔花朵，紅得勝似烈火；江水碧綠的顏色，隻有藍草可以相比。這一切，怎能不撩起我對江南的回憶？詩人用對比、誇張的手法，對江南水鄉的誘人春色進行了形象的描繪，紅綠相映，光彩奪目，印象強烈，引人入勝。</string>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4vR-Xk-LtZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="V4u-iH-HkG"/>
+                    <navigationItem key="navigationItem" title="春煙" id="CU2-zj-dlz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVH-4F-6ZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="-682.01970443349751"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fZ6-ML-xHP">
+            <objects>
+                <viewController id="7YF-5O-uQm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u9m-xs-MoR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="haru" translatesAutoresizingMaskIntoConstraints="NO" id="Yfv-Lj-9xp">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKh-Yy-ygv">
+                                <rect key="frame" x="86" y="356" width="202" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《憶江南·江南好》白居易" backgroundImage="bb1">
+                                    <color key="titleColor" red="0.30831915139999999" green="0.17878580090000001" blue="0.22345221039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="8Rq-Qr-pmh" kind="show" id="dRE-rX-2E7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYs-7t-UNz">
+                                <rect key="frame" x="97" y="414" width="181" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《蝶戀花 離情》李清照" backgroundImage="bb1">
+                                    <color key="titleColor" red="0.30831915139999999" green="0.17878580090000001" blue="0.22345221039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="h5d-ZV-FdZ" kind="show" id="yF1-SW-bD0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h46-bm-LjO">
+                                <rect key="frame" x="118" y="298" width="138" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《江南春》杜牧" backgroundImage="bb1">
+                                    <color key="titleColor" red="0.30831915140151978" green="0.17878580093383789" blue="0.22345221042633057" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="xtP-Z9-j77" kind="show" id="bJI-Bb-nj4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.87212137310000004" blue="0.66425771550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="y24-Ng-Wq2"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cce-gA-NxT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9m9-XQ-uYC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191.19999999999999" y="-682.01970443349751"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="cM4-F3-Ss0">
+            <objects>
+                <viewController id="xtP-Z9-j77" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zUU-24-Rn1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="haru" translatesAutoresizingMaskIntoConstraints="NO" id="3hp-Sv-IeQ">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Auc-hu-cz4" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">[注釋]（1）山郭：山城。酒旗：古代酒店外麵掛的幌子。
+
+[譯文]：千裡江南，到處鶯鶯歌燕舞，桃紅柳綠，一派春意盎然的景象，在臨水的村莊，依山的城郭，到處都有迎風招展的酒旗。到處是香煙繚繞的寺廟，亭台樓閣矗立在朦朧的煙雨之中。
+
+　　這首《江南春》，千百年來素負盛譽。四句詩，既寫出了江南春景的豐富多彩，也寫出了它的廣闊、深邃和迷離。
+
+　　“千裡鶯啼綠映紅，水村山郭酒旗風。”詩一開頭，就象迅速移動的電影鏡頭，掠過南國大地：遼闊的千裡江南，黃鶯在歡樂地歌唱，叢叢綠樹映著簇簇紅花；傍水的村莊、依山的城郭、迎風招展的酒旗，一一在望。迷人的江南，經過詩人生花妙筆的點染，顯得更加令人心旌搖蕩了。搖蕩的原因，除了景物的繁麗外，恐怕還由於這種繁麗，不同於某處園林名勝，僅僅局限於一個角落，而是由於這種繁麗是鋪展在大塊土地上的。因此，開頭如果冇有“千裡”二字，這兩句就要減色了。但是，明代楊慎在《升庵詩話》中說：“千裡鶯啼，誰人聽得？千裡綠映紅，誰人見得？若作十裡，則鶯啼綠紅之景，村郭、樓台、僧寺、酒旗，皆在其中矣。”對於這種意見，何文煥在《曆代詩話考索》中曾駁斥道：“即作十裡，亦未必儘聽得著，看得見。題雲《江南春》，江南方廣千裡，千裡之中，鶯啼而綠映焉，水村山郭無處無酒旗，四百八十寺樓台多在煙雨中也。此詩之意既廣，不得專指一處，故總而命曰《江南春》……”何文煥的說法是對的，這是出於文學藝術典型概括的需要。同樣的道理也適用於後兩句。“南朝四百八十寺，多少樓台煙雨中。”從前兩句看，鶯鳥啼鳴，紅綠相映，酒旗招展，應該是晴天的景象，但這兩句明明寫到煙雨，是怎麼回事呢？這是因為千裡範圍內，各處陰晴不同，也是完全可以理解的。不過，還需要看到的是，詩人運用了典型化的手法，把握住了江南景物的特征。江南特點是山重水複，柳暗花明，色調錯綜，層次豐富而有立體感。詩人在縮千裡於尺幅的同時，著重表現了江南春天掩映相襯、豐富多彩的美麗景色。詩的前兩句，有紅綠色彩的映襯，有山水的映襯，村莊和城郭的映襯，有動靜的映襯，有聲色的映襯。但光是這些，似乎還不夠豐富，還隻描繪出江南春景明朗的一麵。所以詩人又加上精彩的一筆：“南朝四百八十寺，多少樓台煙雨中。”金碧輝煌、屋宇重重的佛寺，本來就給人一種深邃的感覺，現在詩人又特意讓它出冇掩映於迷蒙的煙雨之中，這就更增加了一種朦朧迷離的色彩。這樣的畫麵和色調，與“千裡鶯啼綠映紅，水村山郭酒旗風”的明朗絢麗相映，就使得這幅“江南春”的圖畫變得更加豐富多彩。“南朝”二字更給這幅畫麵增添悠遠的曆史色彩。“四百八十”是唐人強調數量之多的一種說法。詩人先強調建築宏麗的佛寺非止一處，然後再接以“多少樓台煙雨中”這樣的唱歎，就特彆引人遐想。
+
+　　這首詩表現了詩人對江南景物的讚美與神往。但有的研究者提出了“諷刺說”，認為南朝皇帝在中國曆史上是以佞佛著名的，杜牧的時代佛教也是惡性發展，而杜牧又有反佛思想，因之末二句是諷刺。其實，解詩首先應該從藝術形象出發，而不應該作抽象的推論。杜牧反對佛教，並不等於對曆史上遺留下來的佛寺建築也一定討厭。他在宣州，常常去開元寺等處遊玩。在池州也到過一些寺廟，還和僧人交過朋友。著名的詩句，象“九華山路雲遮寺，青弋江邊柳拂橋”，“秋山春雨閒吟處，倚遍江南寺寺樓”，都說明他對佛寺樓台還是欣賞流連的。當然，在欣賞的同時，偶而浮起那麼一點曆史感慨也是可能的。
+</string>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ldX-ha-oIP" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">千裡鶯啼綠映紅，
+水村山郭酒旗風。
+南朝四百八十寺，
+多少樓台煙雨中。</string>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 杜牧" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lAn-HY-IoX">
+                                <rect key="frame" x="108" y="176" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《江南春》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qlr-KP-knz">
+                                <rect key="frame" x="93" y="138" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="snF-9o-7pt"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="fRB-KO-XZw"/>
+                    <navigationItem key="navigationItem" title="春煙" id="VdV-AU-Ynz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bv4-Ko-YU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637.5999999999999" y="-681.2807881773399"/>
+        </scene>
+        <!--haru4-->
+        <scene sceneID="scz-JR-qqp">
+            <objects>
+                <viewController id="h5d-ZV-FdZ" userLabel="haru4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tQs-d6-kSF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="haru" translatesAutoresizingMaskIntoConstraints="NO" id="DG0-fV-aOp">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dnM-9O-4iR" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【注釋】：
+這是一首思婦之詞，也是易安詞中的另類，有較變的閨閣之氣，為宋閨秀詞之冠。
+這首詞的母題是婉約詞家常用的良辰美景和離懷彆苦，然而經過作者的一番濃縮醇化，卻釀出了新意。
+“暖雨晴風初破凍”點出時為景色宜人後初春。緊承破題的“柳眼梅腮”，也可以稱得上“易安奇句”，此句意蘊豐富，一語雙關，既補充起句的景語，又極為簡練地刻畫出了一個思婦的形象。正是這個姣好的形象，被離愁折磨得坐臥不安如癡如迷。
+從“酒意詩情誰與共”一句推斷，所思之人，必定是其丈夫了 。李清照的首詞是說，即使柳萌梅綻，景色誘人，作者也無心觀賞，麵對大好春光，冇有親人陪伴，隻得獨自傷心流淚。宜人的美景、華貴的服飾，她全然不顧，在“暖雨晴風”的天氣裡，意無情無緒地斜靠在枕頭上，任憑“淚融殘粉花鈿重”、“枕損釵頭鳳”這首詞的感情真摯而細膩，形象鮮明而生動，真切地表達了閨中少婦的思夫之情。
+結句“獨抱濃愁無好夢，夜闌猶剪燈花弄 ”，被稱為“入神之句 ”，詞意含蓄傳神，思婦形象清晰肖妙，頗有意趣。相傳燈花為喜事的預兆。思婦手弄燈花，比她矢口訴說思念親人的心事，更耐人尋味，更富感染力。盼人不歸，主人公自然會感到失望和淒苦，這又可以加深上片的“酒意詩情誰與共”的反詰語意，使主題的表達更深沉含蓄。
+這是一首正宗的婉約派詞作，特彆是“淚融殘粉花鈿重”以及“乍試夾衫金縷縫，山枕攲斜，枕損釵頭鳳”等句可以和最典型的婉約詞相類。不過，這首詞寫得蘊藉而不攲靡，妍婉而不任巧，不失易安詞的清新淺易之風致。</string>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2OF-Fb-t59" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">暖雨晴風初破凍， 柳眼梅腮， 已覺春心動。 酒意詩情誰與共？ 淚融殘粉花鈿重。
+乍試夾衫金縷縫， 山枕斜欹， 枕損釵頭鳳。 獨抱濃愁無好夢， 夜闌猶剪燈花弄。</string>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《蝶戀花 離情》李清照" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ht-tp-FtS">
+                                <rect key="frame" x="68" y="138" width="238" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 宋 作者: 李清照" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kb3-cO-kQf">
+                                <rect key="frame" x="108" y="176" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.36396318729999999" green="0.202805772" blue="0.00075291337250000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="znG-Nc-PoB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="bTM-SG-o86"/>
+                    <navigationItem key="navigationItem" title="春煙" id="l8k-eO-Iev"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r3G-nA-0oV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2996" y="-682.01970443349751"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zu2-wg-lNC">
+            <objects>
+                <viewController id="MGL-XK-2eu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fVM-x4-Dhs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="natsu" translatesAutoresizingMaskIntoConstraints="NO" id="TpC-0M-vrp">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doY-o9-P3j">
+                                <rect key="frame" x="80" y="253" width="214" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《夏日南亭懷辛大》孟浩然" backgroundImage="bb2">
+                                    <color key="titleColor" red="0.39559274911880493" green="0.43451881408691406" blue="0.17954251170158386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="CCU-3M-Bbe" kind="show" id="tba-eO-XRB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcH-0q-6Zy">
+                                <rect key="frame" x="101" y="311" width="173" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《阮郎歸 初夏》蘇軾" backgroundImage="bb2">
+                                    <color key="titleColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="zdU-Rd-Rrr" kind="show" id="xcJ-u3-Kuy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0o-tF-J73">
+                                <rect key="frame" x="67" y="195" width="241" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《西江月 夜行黃沙道中》辛棄疾" backgroundImage="bb2">
+                                    <color key="titleColor" red="0.39559274911880493" green="0.43451881408691406" blue="0.17954251170158386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="7DB-V6-M9u" kind="show" id="DAF-Fq-WA4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.87212137310000004" blue="0.66425771550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="WfG-yS-jhe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MMT-vO-eFP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYw-a9-1ow" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191.19999999999999" y="44.334975369458128"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="JSZ-vi-tQv">
+            <objects>
+                <viewController id="7DB-V6-M9u" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BSm-AF-gel">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="natsu" translatesAutoresizingMaskIntoConstraints="NO" id="mME-rc-aJo">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gWV-ka-VEj" userLabel="本文">
+                                <rect key="frame" x="60" y="401" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【注釋】
+　　①作於閒居帶湖期間。黃沙：即黃沙嶺。見上篇注①。　　此夏夜小唱，深具藝術魅力。上片夜景，意在寫靜，卻出之以動。鵲啼、蟬鳴、蛙喧，愈鬨而愈靜，是為動中見靜法。下片時轉景移，山雨欲來，心緒由安閒而焦躁。結韻妙語：就急欲避雨而言，先推出茅店，後補以“忽見”，則恍惚驚喜之態，躍然紙上；就全篇而言，至此點出夜行者，返照全詞，則無一不是作者“夜行黃沙道中”的見聞和感受，詞脈由是暢通一體。
+　　②“明月”兩句：月光驚飛枝上烏鵲，清風送來夜半蟬聲。按：曹操《短歌行》：“月明星稀，烏鵲南飛，繞樹三匝，無枝可依。”蘇軾《次周令韻送赴闕》：“月明驚鵲未安枝。”周邦彥《蝶戀花》：“月皎驚烏棲不定。”辛詞“明月彆枝驚鵲”句與以上詩句景象仿佛。彆枝：遠枝。方乾《寓民郝氏亭》：“蟬曳殘聲過彆枝。”或作“離彆樹枝”講，意亦通，但與下文“半夜”失偶。
+　　③“稻花”兩句：稻花飄香，蛙聲一片，似在歌唱豐年。或謂“說豐年”者，守夜農人。似太實，且欠韻味。
+　　④“七八個星”兩句：天外星稀，山前欲雨。盧延讓《鬆寺》：“兩三條電欲為雨，七八個星猶在天。”以數詞對偶，駢文中屢見，如庾信《小園賦》：“一寸二寸之魚，三竿兩竿之竹。”
+　　⑤“舊時”兩句：轉過溪橋，忽見記憶中的茅店就在眼前。兩句用倒裝句法。
+-----------轉自“羲皇上人的博客”-----------
+【評解】
+
+這首詞是辛棄疾貶官閒居江西時的作品。著意描寫黃沙嶺的夜景。明月清風，疏星
+稀雨，鵲驚蟬鳴，稻花飄香，蛙聲一片。詞從視覺、聽覺和嗅覺三方麵抒寫夏夜的山村
+風光。
+情景交融，優美如畫。恬靜自然，生動逼真。是宋詞中以農村生活為題材的佳作。
+
+【集評】
+
+唐圭璋等《唐宋詞選注》：作者以寧靜的筆調描寫了充滿著活躍氣氛的夏夜。一路
+行來，有清風、明月、疏星、微雨，也有鵲聲、蟬聲，還聞到了稻花香。走得久了，忽
+然看到那家熟識的小店，可以進去歇歇腳，愉悅之情，油然而生。
+艾治平《宋詞名篇賞析》：這是一首筆調靈活，不假雕琢，不事堆砌，語淺味永，
+摹寫逼真的佳作，是一幅頗有審美價值的淡墨畫——
+充滿著農村生活氣息的夏夜素描。
+-----------------------
+這是辛棄疾中年時代經過江西上饒黃沙嶺道時寫的一首詞。宋孝宗淳熙八年（1181 ），辛棄疾因受奸臣排擠，被免罷官，開始到上饒居住，並在此生活了近十五年。在此期間 ，他雖也有過短暫的出仕經曆，但以在上饒居住為多，因而在此留下了不少詞作。詞中所說的黃沙嶺在上饒縣西四十裡 ，嶺高約十五丈，深而敞豁，可容百人。下有兩泉，水自石中流出，可溉田十餘畝。這一帶不僅風景優美，也是農田水利較好的地區。辛棄疾在上饒期間，經常來此遊覽，他描寫這一帶風景的詞，現存約五首，即：《生查子》（獨遊西岩）二首、《浣溪沙》（黃沙嶺）一首，《鷓鴣天》（黃沙道上即事）一首，以及本詞。
+辛棄疾的這首《西江月》前兩句“明月彆枝驚鵲，清風半夜鳴蟬”表麵看來，寫的是風、月、蟬、鵲這些極其平常的景物，然而經過作者巧妙的組合，結果平常中就顯得不平常了。鵲兒的驚飛不定，不是盤旋在一般樹頭，而是飛繞在橫斜突兀的枝乾之上。因為月光明亮，所以鵲兒被驚醒了；而鵲兒驚飛，自然也就會引起“彆枝”搖曳。同時，知了的鳴叫聲也是有其一定時間的。夜間的鳴叫聲不同於烈日炎炎下的嘶鳴 ，而當涼風徐徐吹拂時，往往特彆感到清幽 。總之 ，“驚鵲”和“鳴蟬”兩句動中寓靜，把半夜“清風”、“明月”下的景色描繪得令人悠然神往。
+接下來“ 稻花香裡說豐年，聽取蛙聲一片。”把人們的關注點從長空轉移到田野，表現了詞人不僅為夜間黃沙道上的柔和情趣所浸潤，更關心撲麵而來的漫村遍野的稻花香，又由稻花香而聯想到即將到來的豐年景象。此時此地，詞人與人民同呼吸的歡樂，儘在言表。稻花飄香的“香”，固然是描繪稻花盛開，也是表達詞人心頭的甜蜜之感。而說豐年的主體，不是我們常用的鵲聲，而是那一片蛙聲，這正是詞人匠心獨到之處，令人稱奇。在詞人的感覺裡，儼然聽到群蛙在稻田中齊聲喧嚷，爭說豐年。先出“說”的內容，再補“聲”的來源。以蛙聲說豐年，是詞人的創造。以上四句純然是抒寫當時當地的夏夜山道的景物和詞人的感受，然而其核心卻是洋溢著豐收年景的夏夜。因此，與其說這是夏景，還不如說是眼前夏景將給人們帶來的幸福。
+不過，詞人所描寫的夏景並冇有就此終止。如果說詞的上闋並非寥廓夏景的描繪，那麼下闋卻顯然是以波瀾變幻、柳蔭路曲取勝了。由於上闋結尾構思和音律出現了顯著的停頓，因此下闋開頭，詞人就樹立了一座峭拔挺峻的奇峰，運用對仗手法，以加強穩定的音勢 。“七八個星天外，兩三點雨山前”，在這裡，“星”是寥落的疏星 ，“雨”是輕微的陣雨，這些都是為了與上闋的清幽夜色、恬靜氣氛和樸野成趣的鄉土氣息相吻合。特彆是一個“ 天外”一個“山前”，本來是遙遠而不可捉摸的 ，可是筆鋒一轉 ，小橋一過，鄉村林邊茅店的影子卻意想不到地展現在人們的眼前。詞人對黃沙道上的路徑儘管很熟，可總因為醉心於傾訴豐年在望之樂的一片蛙聲中，竟忘卻了越過“天外”，邁過“山前”，連早已臨近的那個社廟旁樹林邊的茅店，也都冇有察覺。前文“路轉”，後文“忽見 ”，既襯出了詞人驟然間看出了分明臨近舊屋的歡欣，又表達了他由於沉浸在稻花香中以至忘了道途遠近的怡然自得的入迷程度，相得益彰，體現了作者深厚的藝術功底，令人玩味無窮。
+從表麵上看，這首詞的題材內容不過是一些看來極其平凡的景物，語言冇有任何雕飾，冇有用一個典故 ，層次安排也完全是聽其自然，平平淡淡。然而，正是在看似平淡之中，卻有著詞人潛心的構思，淳厚的感情。在這裡，我們也可以領略到稼軒詞於雄渾豪邁之外的另一種境界。</string>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HYy-pw-Z1r" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">明月彆枝驚鵲， 清風半夜鳴蟬。
+稻花香裡說豐年， 聽取蛙聲一片。
+
+七八個星天外， 兩三點雨山前。
+舊時茅店社林邊， 路轉溪橋忽見。</string>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 宋 作者: 辛棄疾" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y4x-VF-S2s">
+                                <rect key="frame" x="104" y="176" width="167" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WGN-SS-eAY">
+                                <rect key="frame" x="72" y="138" width="231" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">《西江月 夜行黃沙道中》
+</string>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="xmC-bZ-zlY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Jlm-LJ-01L"/>
+                    <navigationItem key="navigationItem" title="夏嵐" id="w5J-vD-THv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agl-PV-tL3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637.5999999999999" y="45.812807881773402"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="6Sk-BL-s8T">
+            <objects>
+                <viewController id="CCU-3M-Bbe" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e1g-8J-Hlh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="natsu" translatesAutoresizingMaskIntoConstraints="NO" id="VFx-6O-Udd">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r9f-Yf-jkM" userLabel="註釋">
+                                <rect key="frame" x="60" y="239" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">山光忽西落，池月漸東上。
+散發乘夜涼，開軒臥閒敞。
+荷風送香氣，竹露滴消響。
+欲取鳴琴彈，慨無知音賞。
+感此懷故人，終霄勞夢想。</string>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《夏日南亭懷辛大》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ye1-HI-bSQ">
+                                <rect key="frame" x="87" y="138" width="201" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 孟浩然" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sWk-q2-kHU">
+                                <rect key="frame" x="113" y="176" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jcE-Jv-WSr" userLabel="本文">
+                                <rect key="frame" x="60" y="403" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【簡析】：
+這首詩充滿懷念故人的情緒，寫出閒適自得的情趣，表達出無知音的感慨。文字行如流水，層遞自然，極富韻味。
+
+① ：詩題一無“夏日”。
+② 夕：一作“夜”。
+【注解】：
+１、山光：山上的日光。
+２、池月：即池邊月色。
+３、軒：窗。
+
+【韻譯】：
+夕陽忽然間落下了西山，
+東邊池角明月漸漸東上。
+披散頭發今夕恰好乘涼，
+開窗閒臥多麼清靜舒暢。
+清風徐徐送來荷花幽香，
+竹葉輕輕滴下露珠清響。
+心想取來鳴琴輕彈一曲，
+隻恨眼前冇有知音欣賞。
+感此良宵不免懷念故友，
+隻能在夜半裡夢想一場。
+
+【評析】：
+??此詩寫夏夜水亭納涼清爽閒適和對友人的懷念。
+??詩的開頭寫夕陽西下與素月東升，為納涼設景。三、四句寫沐後納涼，表現閒情
+適意。五、六句由嗅覺繼續寫納涼的真實感受。七、八句寫由境界清幽想到彈琴，想
+到“知音”、從納涼過渡到懷人。最後寫希望友人能在身邊共度良宵而生夢。
+??全詩感情細膩，語言流暢，層次分明，富於韻味。“荷風送香氣，竹露滴清響”
+句，納涼消暑之佳句。
+
+--引自"超純齋詩詞"bookbest.163.net 翻譯、評析：劉建勳 　　
+
+in summer at the south pavilion 
+thinking of xing
+
+the mountain-light suddenly fails in the west, 
+in the east from the lake the slow moon rises. 
+i loosen my hair to enjoy the evening coolness 
+and open my window and lie down in peace. 
+the wind brings me odours of lotuses, 
+and bamboo-leaves drip with a music of dew.... 
+i would take up my lute and i would play, 
+but, alas, who here would understand? 
+and so i think of you, old friend, 
+o troubler of my midnight dreams ! 
+
+浩然詩的特色是“遇景入詠，不拘奇抉異”（皮日休），雖隻就閒情逸致作清描淡寫，往往能引人漸入佳境。《夏日南亭懷辛大》是有代表性的名篇。
+　　詩的內容可分兩部分，即寫夏夜水亭納涼的清爽閒適，同時又表達對友人的懷念。“山光忽西落，池月漸東上”，開篇就是遇景入詠，細味卻不止是簡單寫景，同時寫出詩人的主觀感受。“忽”、“漸”二字運用之妙，在於它們不但傳達出夕陽西下與素月東升給人實際的感覺（一快一慢）；而且，“夏日”可畏而“忽”落，明月可愛而“漸”起，隻表現出一種心理的快感。“池”字表明“南亭”傍水，亦非虛設。
+　　近水亭台，不僅“先得月”，而且是先退涼的。詩人沐浴之後，洞開亭戶，“散發”不梳，靠窗而臥，使人想起陶潛的一段名言：“五六月中北窗下臥，遇涼風暫至，自謂是羲皇上人。”（《與子儼等疏》）三四句不但寫出一種閒情，同時也寫出一種適意──來自身心兩方麵的快感。
+　　進而，詩人從嗅覺、聽覺兩方麵繼續寫這種快感：“荷風送香氣，竹露滴清響。”荷花的香氣清淡細微，所以“風送”時聞；竹露滴在池麵其聲清脆，所以是“清響”。滴水可聞，細香可嗅，使人感到此外更無聲息。詩句表達的境界宜乎“一時歎為清絕”（沈德潛《唐詩彆裁》）。寫荷以“氣”，寫竹以“響”，而不及視覺形象，恰是夏夜給人的真切感受。
+　　“竹露滴清響”，那樣悅耳清心。這天籟似對詩人有所觸動，使他想到音樂，“欲取鳴琴彈”了。琴，這古雅平和的樂器，隻宜在恬淡閒適的心境中彈奏。據說古人彈琴，先得沐浴焚香，屏去雜念。而南亭納涼的詩人此刻，已自然進入這種心境，正宜操琴。“欲取”而未取，舒適而不擬動彈，但想想也自有一番樂趣。不料卻由“鳴琴”之想牽惹起一層淡淡的悵惘。象平靜的井水起了一陣微瀾。相傳楚人鐘子期通曉音律。伯牙鼓琴，誌在高山，子期品道：“巍巍乎若太山”；誌在流水，子期品道：“湯湯乎若流水。”子期死而伯牙絕弦，不複演奏。（見《呂氏春秋·本味》）這就是“知音”的出典。由境界的清幽絕俗而想到彈琴，由彈琴想到“知音”，而生出“恨無知音賞”的缺憾，這就自然而然地由水亭納涼過渡到懷人上來。
+　　此時，詩人是多麼希望有朋友在身邊，閒話清談，共度良宵。可人期不來，自然會生出惆悵。“懷故人”的情緒一直帶到睡下以後，進入夢鄉，居然會見了親愛的朋友。詩以有情的夢境結束，極有餘味。
+　　孟浩然善於捕捉生活中的詩意感受。此詩不過寫一種閒適自得的情趣，兼帶點無知音的感慨，並無十分厚重的思想內容；然而寫各種感覺細膩入微，詩味盎然。文字如行雲流水，層遞自然，由境及意而達於渾然一體，極富於韻味。詩的寫法上又吸收了近體的音律、形式的長處，中六句似對非對，具有素樸的形式美；而誦讀起來諧於唇吻，又“有金石宮商之聲”（嚴羽《滄浪詩話》）。
+(周嘯天)</string>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ILr-3C-Ya6"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="9SU-Wh-pfJ"/>
+                    <navigationItem key="navigationItem" title="夏嵐" id="22y-Nd-nPA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="961-uU-LEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="44.334975369458128"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="yd6-a1-P7s">
+            <objects>
+                <viewController id="zdU-Rd-Rrr" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sRF-s0-MA9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="natsu" translatesAutoresizingMaskIntoConstraints="NO" id="BIW-VB-WVP">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="綠槐高柳咽新蟬。 薰風初入弦。 碧紗窗下水沈煙。 棋聲驚晝眠。 微雨過，小荷翻。 榴花開欲然。 玉盆纖手弄清泉。 瓊珠碎卻圓。" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbY-bt-X5t" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 宋 作者: 蘇軾" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ybr-8f-FMl">
+                                <rect key="frame" x="108" y="176" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《阮郎歸 初夏》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lZa-71-QPV">
+                                <rect key="frame" x="93" y="138" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aNV-CC-dk1" userLabel="本文">
+                                <rect key="frame" x="60" y="401" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【注釋】
+
+①蕙風：夏季的東南風。
+②玉盆：指荷葉。
+
+【評解】
+
+高柳新蟬，薰風微雨，池荷榴花，瓊珠清泉，交織成一幅初夏的美麗圖景；撫琴、
+下棋、晝眠、嬉水，傳達出人物風雅優閒的生活情趣。歇拍二句，寫弄水葉麵，瓊珠碎
+而複圓，更覺清新可愛。
+
+【集評】
+
+沈雄《古今詞話》：觀者歎服其八句狀八景。音律一同，殊不散亂，入爭寶之。刻
+之琬琰，掛於堂室間也。
+俞陛雲《唐五代兩宋詞選釋》：寫閨情而不著妍辭，不作情語，自有一種閒雅之趣。
+-----------------------------
+此詞采用從反麵落筆的手法，上片寫靜美，而從聽覺入手，以聲響狀環境之寂，下片寫動美，卻從視覺落筆，用一幅幅無聲畫來展示大自然的生機，整首詞表現了初夏時節的閨閣生活，淡雅清新而又富於生活情趣。詞中以描寫手法為主，注意景物描寫、環境描寫和人物描寫的交叉運用，從而獲得了極好的藝術效果。
+上片首二句抓住蟬聲乍歇 ，“薰風”初起這一刹那的感覺 ，寫環境之美。詞人采用對比手法 ，明寫“咽新蟬，暗與蟬聲亂鳴時相比，使人明顯地感覺到沉靜。此處以棋聲烘托環境的幽靜。作者將四周的無聲無息渲染得淋漓儘致，使人由環境的靜寂體味到主人公的悠閒自得之情。
+下片寫這個少女午夢醒來以後，儘情地領略和享受初夏時節的自然風光 。“微雨過，小荷翻。榴花開欲燃 ”，又是另一番園池夏景。小荷初長成，小而嬌嫩，一陣細雨過去，輕風把荷葉翻轉；石榴花色本鮮紅，經雨一洗 ，更是紅得象火焰。這生機，這秀色，大概使這位少女陶醉了，於是出現了又一個生動的場麵：“玉盆纖手弄清泉，瓊珠碎卻圓。”這位女主人公索性端著漂亮的瓷盆到清池邊玩水。水花散濺到荷葉上，像珍珠那樣圓潤晶亮。可以想見，此時此刻這位少女的心情也恰如這飛珠濺玉的水花一樣，喜悅，興奮，不能自持。
+此詞景中含情，將眾多的景物以情緯之，故散而不亂，給人以整體感。作者善於抓住細微的心理感受並在無形中將客觀環境的細微變化加以對比，通過景物描寫 、環境描寫，構成一幅活潑自然的庭園野趣，並在其中寄寓女主人公的單純、天真和對自然、對生活的熱愛。
+詞中的少女形象，與一般閨情詞中疏慵倦怠、孤悶愁苦的女性形象截然不同，充滿了美好清新的勃勃生機和青春氣息，給人以耳目一新的感覺。作品中活潑健康的少女形象，與初夏時節富有生氣的景物、環境，構成了一種和諧、清麗、靈動的情調，令人流連忘返。</string>
+                                <color key="textColor" red="0.39559274909999997" green="0.43451881409999998" blue="0.17954251169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="PyU-Kb-j82"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="y2q-zn-VHu"/>
+                    <navigationItem key="navigationItem" title="夏嵐" id="LW7-bn-zwZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a94-Tv-TZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2996" y="46.551724137931039"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="7hC-qQ-GGR">
+            <objects>
+                <viewController id="qBY-pM-zGh" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kJb-On-xub">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aki" translatesAutoresizingMaskIntoConstraints="NO" id="P8B-vz-CdP">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="I6U-Gh-SoO" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【注釋】
+　①近水楊寧益《零墨新箋》考證《菩薩蠻》為古緬甸曲調，唐玄宗時傳入中國，列於教坊曲。變調，四十四字，兩仄韻，兩平韻。
+
+【品評】
+　　　宋初《尊前集》及稍後的文學《湘山野錄》、楊繪《時賢本事曲子集》，都載有傳為李白所作的這首《菩薩蠻》。黃^誑《唐宋諸賢絕妙詞選》且將此詞推為“百代詞典之祖”。然自明胡應麟以來，不斷有人提出質疑，認為它是晚唐五代人作而托李白的。這場爭議至今仍繼續。
+　　　這是一首懷人詞，寫思婦盼望遠方行人久候而不歸的心情。開頭兩句為遠景。高樓極目，平林秋山，橫亙天末，凝望之際，不覺日暮。“煙如織”是說暮煙濃密，“傷心碧”是說山色轉深。王建《江陵使至汝州》詩：“日暮數峰青似染，商人說是汝州山”。薛濤《題竹郎廟》詩：“竹郎廟前多古木，夕陽沉沉山更綠。”多言晚山之青，可以參看。這兩句全從登樓望遠的思婦眼中寫出，主觀色彩很重，而行人之遠與佇望之深，儘在其中。“暝色”兩句為近景，用一“入”字由遠而近，從全景式的平林遠山拉到樓頭思婦的特寫鏡頭，突出了“有人樓上愁”的人物主體，層次井然。下片玉階佇立仰見飛鳥，與上片登樓遠望俯眺平楚，所見不同，思念之情則一。“宿鳥歸飛急”還意在反襯行人滯留他鄉，未免戀戀不返。末句計歸程以卜歸期。庚信《哀江南賦》有“十裡五裡，長亭短亭”之語。詞中著一“更”字加強了連續不斷的以至無窮無儘的印象。征途上無數長亭短亭，不但說明歸程遙遠，同時也說明歸期無望，以與過片“空佇立”之“空”字相應。如此日日空候，思婦的離愁也就永無窮儘了。
+　結句不怨行人忘返，卻愁道路幾千，歸程迢遞，不露哀怨，語甚醞藉。韓元吉《念奴嬌》詞雲，“尊前誰唱新詞，平林真有恨，寒煙如織。”可見南宋初這首《菩薩蠻》猶傳唱不絕。
+
+以下摘自《唐宋詞簡釋》 唐圭璋
+
+此首望遠懷人之詞，寓情於境界之中。一起寫平林寒山境界，蒼茫悲壯梁元帝賦雲：“登樓一望，唯見遠樹含煙。平原如此，不知道路幾千。”此詞境界似之。然其寫日暮景色，更覺淒黯。此兩句，白內而外。“瞑色”兩句，自外而內。煙如織、傷心碧，皆瞑色也。兩句折到樓與人，逼出“愁”字，喚醒全篇。所以覺寒山傷心者，以愁之故；所以愁者，則以人不歸耳。下片，點明“歸”字。“空”字，亦從“愁”字來。烏歸飛急，寫出空間動態，寫出鳥之心情。鳥歸人不歸，故雲此首望遠懷人之詞，寓情於境界之中。一起寫平林寒山境界，蒼茫悲壯。粱元帝賦雲“空佇立”。“何處”兩句，自相呼應，仍以境界結束。但見歸程，不見歸人，語意含蓄不儘。</string>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3DP-V6-2Xh" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">平林漠漠煙如織， 寒山一帶傷心碧。
+暝色入高樓， 有人樓上愁。
+玉階空佇立， 宿鳥歸飛急。
+何處是歸程？ 長亭連短亭。 (連短亭 一作：更短亭)</string>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 李白" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bQ1-g6-j37">
+                                <rect key="frame" x="108" y="176" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《菩薩蠻·平林漠漠煙如織》李白" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IKX-dP-0YM">
+                                <rect key="frame" x="50" y="138" width="274" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.40676093101501465" green="0.28397101163864136" blue="0.075367860496044159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7lJ-Qu-hHR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="9iE-a7-5fX"/>
+                    <navigationItem key="navigationItem" title="秋夕" id="44d-yi-61E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kow-fb-j0V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637.5999999999999" y="743.3497536945813"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dcr-6m-oc8">
+            <objects>
+                <viewController id="AgE-ZR-a0P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VYI-SR-R7V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aki" translatesAutoresizingMaskIntoConstraints="NO" id="ird-Z0-VV9">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBX-SM-Xgd">
+                                <rect key="frame" x="112" y="343" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《霜月》李商隱" backgroundImage="bb3">
+                                    <color key="titleColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="xlQ-kC-t8i" kind="show" id="ncT-hE-9Fc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gei-pS-93B">
+                                <rect key="frame" x="124" y="401" width="127" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《山中》王維" backgroundImage="bb3">
+                                    <color key="titleColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="tvB-K3-ygT" kind="show" id="rEV-ke-X2b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOC-Vd-cV3">
+                                <rect key="frame" x="62" y="285" width="250" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《菩薩蠻·平林漠漠煙如織》李白" backgroundImage="bb3">
+                                    <color key="titleColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="qBY-pM-zGh" kind="show" id="4DL-2W-JrR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.87212137310000004" blue="0.66425771550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Ksv-ZF-rDv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="br6-LI-udI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFM-bX-753" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191.19999999999999" y="741.87192118226608"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="ZfZ-aA-IsZ">
+            <objects>
+                <viewController id="xlQ-kC-t8i" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g8w-3v-0vM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aki" translatesAutoresizingMaskIntoConstraints="NO" id="11r-vD-zKH">
+                                <rect key="frame" x="0.0" y="88" width="375" height="652"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qLg-qd-VVD" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">[注釋]（1）青女：主霜雪的女神。素娥：月中嫦娥。（2）嬋娟：美好的姿容。
+
+[譯文]剛開始聽到遠行去南方的大雁的鳴叫聲，蟬鳴就已經銷聲匿跡了，我登上百尺高樓，極目遠眺，水天連成一片。霜神青女和月中嫦娥不怕寒冷，在寒月冷霜中爭妍鬥俏，比一比冰清玉潔的美好姿容。
+
+-----------------------------
+　　文學作品，特彆是詩歌，它的特點在於即景寓情，因象寄興。詩人不僅是寫生的妙手，而應該是隨物賦形的化工。最通常的題材，在傑出的詩人的筆底，往往能夠創造出一種高超優美的意境。讀了李商隱的這首《霜月》，就會有這樣的感覺。
+
+　　這詩寫的是深秋季節，在一座臨水高樓上觀賞霜月交輝的夜景。它的意思隻不過說，月白霜清，給人們帶來了寒涼的秋意而已。這樣的景色，會使人心曠神怡。然而這詩所給予讀者美的享受，卻大大超過了我們在類似的實際環境中所感受到的那些。詩的形象明朗單純，它的內涵是飽滿而豐富的。
+
+　　秋天，草木搖落而變衰，眼裡看到的一切，都是萎約枯黃，黯然無色；可是清宵的月影霜痕，卻顯得分外光明皎潔。這秋夜自然景色之美意味著什麼呢？“青女素娥俱耐冷，月中霜裡鬥嬋娟。”儘管“瓊樓玉宇，高處不勝寒”，可是冰肌玉骨的絕代佳人，愈是在宵寒露冷之中，愈是見出霧鬢風鬟之美。她們的綽約仙姿之所以不同於庸脂俗粉，正因為她們具有耐寒的特性，經得起寒冷的考驗啊！
+
+　　寫霜月，不從霜月本身著筆，而寫月中霜裡的素娥和青衣；青女、素娥在詩裡是作為霜和月的象征的。這樣，詩人所描繪的就不僅僅是秋夜的自然景象，而是勾攝了清秋的魂魄，霜月的精神。這精神是詩人從霜月交輝的夜景裡發掘出來的自然之美，同時也反映了詩人在混濁的現實環境裡追求美好、向往光明的深切願望；是他性格中高標絕俗、耿介不隨的一麵的自然流露。當然，我們不能說，這耐寒的素娥、青女，就是詩人隱以自喻；或者說，它另有所實指。詩中寓情寄興，是不會如此狹隘的。王夫之說得好：“興在有意無意之間。”（《薑齋詩話》）倘若刻舟求劍，理解得過於窒實，反而會縮小它的意義，降低它的美學價值。
+
+　　範元實雲：“義山詩，世人但稱其巧麗，至與溫庭筠齊名。蓋俗學隻見其皮膚，其高情遠意，皆不識也。”他引了《籌筆驛》、《馬嵬》等篇來說明。（見魏慶之《詩人玉屑》卷十五引《詩眼》）其實，不僅詠史詩以及敘誌述懷之作是如此，在更多的即景寄興的小詩裡，同樣可以見出李商隱的“高情遠意”。葉燮是看到了這點的，所以他特彆指出李商隱的七言絕句，“寄托深而措辭婉”（《原詩》外編下）。於此詩，也可見其一斑。
+
+　　這詩在藝術手法上有一點值得注意：詩人的筆觸完全在空際點染盤旋，詩境如海市蜃樓，彈指即逝；詩的形象是幻想和現實交織在一起而構成的完美的整體。秋深了，樹枝上已聽不到聒耳的蟬鳴，遼闊的長空裡，時時傳來雁陣驚寒之聲。在月白霜清的宵夜，高樓獨倚，水光接天，望去一片澄澈空明。“初聞征雁已無蟬”二句，是實寫環境背景。這環境是美妙想象的搖藍，它會喚起人們絕俗離塵的意念。正是在這個搖籃裡，詩人的靈府飛進月地雲階的神話世界中去了。後兩句想象中的意境，是從前兩句生發出來的。
+
+　　（馬茂元）
+--------------------------------------------
+△淮南子。秋三月。青女乃出。以降霜雪。高誘注。青女。青腰玉女。主霜雪也。謝莊月賦。集素娥於後庭。注。嫦娥竊藥奔月。月色白。故曰素娥。
+
+-----------朱鶴齡（清）《李義山詩集注》-----------</string>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1kT-U4-yoy" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">初聞征雁已無蟬， 百尺樓台水接天。
+青女素娥俱耐冷， 月中霜裡鬥嬋娟。</string>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《霜月》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VAk-3J-RRD">
+                                <rect key="frame" x="122" y="138" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 李商隱" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e5h-Fp-MJP">
+                                <rect key="frame" x="108" y="176" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="YM0-0P-etV"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="i7B-pa-BSE"/>
+                    <navigationItem key="navigationItem" title="秋夕" id="rZJ-PK-N1G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdo-AU-TQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="741.87192118226608"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="ryL-FF-PXj">
+            <objects>
+                <viewController id="tvB-K3-ygT" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bmG-lh-CbO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aki" translatesAutoresizingMaskIntoConstraints="NO" id="RhR-e6-zLz">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jkp-xj-eJo" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">"荊溪白石出"一作“溪清白石出”
+
+　　這首小詩描繪初冬時節山中景色。
+　　首句寫山中溪水。荊溪，本名長水，又稱滻水，源出陝西藍田縣西南秦嶺山中，北流至長安東北入灞水。這裡寫的大概是穿行在山中的上遊一段。山路往往傍著溪流，山行時很容易首先注意到蜿蜒曲折、似乎與人作伴的清溪。天寒水淺，山溪變成涓涓細流，露出磷磷白石，顯得特彆清淺可愛。由於抓住了冬寒時山溪的主要特征，讀者不但可以想見它清澄瑩澈的顏色，蜿蜒穿行的形狀，甚至仿佛可以聽到它潺潺流淌的聲音。
+　　次句寫山中紅葉。絢爛的霜葉紅樹，本是秋山的特點。入冬天寒，紅葉變得稀少了；這原是不大引人注目的景色。但對王維這樣一位對大自然的色彩有特殊敏感的詩人兼畫家來說，在一片濃翠的山色背景上（這從下兩句可以看出），這裡那裡點綴著的幾片紅葉，有時反倒更為顯眼。它們或許會引起詩人對剛剛逝去的絢爛秋色的遐想呢。所以，這裡的“紅葉稀”，並不給人以蕭瑟、凋零之感，而是引起對美好事物的珍重和流連。
+　　如果說前兩句所描繪的是山中景色的某一兩個局部，那麼後兩句所展示的卻是它的全貌。儘管冬令天寒，但整個秦嶺山中，仍是蒼鬆翠柏，蓊鬱青蔥，山路就穿行在無邊的濃翠之中。蒼翠的山色本身是空明的，不象有形的物體那樣可以觸摸得到，所以說“空翠”。“空翠”自然不會“濕衣”，但它是那樣的濃，濃得幾乎可以溢出翠色的水份，濃得幾乎使整個空氣裡都充滿了翠色的分子，人行空翠之中，就象被籠罩在一片翠霧之中，整個身心都受到它的浸染、滋潤，而微微感覺到一種細雨濕衣似的涼意，所以儘管“山路元無雨”，卻自然感到“空翠濕人衣”了。這是視覺、觸覺、感覺的複雜作用所產生的一種似幻似真的感受，一種心靈上的快感。“空”字和“濕”字的矛盾，也就在這種心靈上的快感中統一起來了。
+　　張旭的《山中留客》說：“縱使晴明無雨色，入雲深處亦沾衣。”“沾衣”是實寫，展示了雲封霧鎖的深山另一種美的境界；王維這首《山中》的“濕衣”卻是幻覺和錯覺，抒寫了濃翠的山色給人的詩意感受。同樣寫山中景物，同樣寫到了沾衣，卻同工異曲，各臻其妙。真正的藝術是永遠不會重複的。
+　　這幅由白石磷磷的小溪、鮮豔的紅葉和無邊的濃翠所組成的山中冬景，色澤斑爛鮮明，富於詩情畫意，毫無蕭瑟枯寂的情調。和作者某些專寫靜謐境界而不免帶有清冷虛無色彩的小詩比較，這一首所流露的感情與美學趣味都似乎要更健康一些。
+(劉學鍇)</string>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MaX-NT-SkB" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">荊溪白石出， 天寒紅葉稀。
+山路元無雨， 空翠濕人衣。</string>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《山中》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nCD-TO-ZgF">
+                                <rect key="frame" x="131" y="138" width="113" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 王維" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TLV-0v-sNr">
+                                <rect key="frame" x="105" y="176" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.40676093099999999" green="0.28397101159999999" blue="0.075367860499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="WEd-YE-K7V"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="OX8-XN-f3z"/>
+                    <navigationItem key="navigationItem" title="秋夕" id="sEf-bU-zSJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VB9-nR-3sD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2996" y="743.3497536945813"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="fjA-Ya-Tdd">
+            <objects>
+                <viewController id="Ksu-df-3Ei" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sZw-V8-00m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuyu" translatesAutoresizingMaskIntoConstraints="NO" id="tTe-dF-XB5">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2Xt-e6-bOj" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【注釋】：
+　　前人有雲孟詩開端最奇，而此詩卻是奇在結尾。它通過前後映襯，積攢力量，造成氣勢，最後以警語結束全篇，具有畫龍點睛之妙。
+
+　　題名《洛橋晚望》，突出了一個“望”字。四句詩，都寫所見之景，然而前三句之境界與末句之境界迥然不同。前三句描摹了初冬時節的蕭瑟氣氛：橋下冰初結，路上行人絕，葉落枝禿的榆柳掩映著靜謐的樓台亭閣，萬籟俱寂，悄無人聲。就在這時，詩人大筆一轉：“月明直見嵩山雪”，筆力遒勁，氣象壯闊，將視線一下延伸到遙遠的嵩山，給沉寂的畫麵增添了無限的生機，在人們麵前展示了盎然的意趣。到這時，人們才恍然驚悟，詩人寫冰初結，乃是為積雪作張本；寫人行絕，乃是為氣氛作鋪陳；寫榆柳蕭疏，乃是為遠望創造條件。同時，從初結之“冰”，到絕人之“陌”，再到蕭疏之“榆柳”、閒靜之“樓閣”，場景不斷變換，而每一變換之場景，都與末句的望山接近一步。這樣由近到遠，視線逐步開闊，他忽然發現在明靜的月光下，一眼看到了嵩山上那皚皚白雪，感受到極度的快意和美感。而“月明”一句，不僅增添了整個畫麵的亮度，使得柔滑的月光和白雪的反射相得益彰，而且巧妙地加一“直見”，硬語盤空，使人精神為之一振。
+
+　　這首詩寫出了“明月照積雪”的壯麗景象。天空與山巒，月華與雪光，交相輝映，舉首燦然奪目，遠視浮光閃爍，上下通明，一片銀白，真是美極了。詩人從蕭疏的洛城冬景中，開拓出一個美妙迷人的新境界，而明月、白雪都是冰清玉潔之物，展現出一個清新淡遠的境界，寄寓著詩人高遠的襟懷。
+
+　　（尚永亮）</string>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c00-E7-74q" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">天津橋下冰初結， 洛陽陌上人行絕。
+榆柳蕭疏樓閣閒， 月明直見嵩山雪。</string>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《洛橋晚望》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c3S-42-e86">
+                                <rect key="frame" x="114" y="138" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 孟郊" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dmn-cP-Wvq">
+                                <rect key="frame" x="105" y="176" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="RQm-Zv-iTS"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="4wa-gV-uv9"/>
+                    <navigationItem key="navigationItem" title="冬霜" id="LhY-Qk-87N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Btz-wx-Wmz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637.5999999999999" y="1443.1034482758621"/>
+        </scene>
+        <!--冬霜-->
+        <scene sceneID="FiA-M5-jEq">
+            <objects>
+                <viewController id="faz-lg-s5D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ruM-rh-YFs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuyu" translatesAutoresizingMaskIntoConstraints="NO" id="scr-1d-ma1">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoR-8w-k1P">
+                                <rect key="frame" x="84" y="516" width="206" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《逢雪宿芙蓉山》劉長卿" backgroundImage="bb4">
+                                    <color key="titleColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="9du-ea-6MM" kind="show" id="FST-tH-MyT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WK-RH-Wpx">
+                                <rect key="frame" x="96" y="458" width="182" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《十二月十五夜》袁枚" backgroundImage="bb4">
+                                    <color key="titleColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="W6O-L7-53P" kind="show" id="PyK-Qx-po3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8C-tN-I6Z">
+                                <rect key="frame" x="110" y="400" width="154" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="《洛橋晚望》孟郊" backgroundImage="bb4">
+                                    <color key="titleColor" red="0.14915654063224792" green="0.14543336629867554" blue="0.12454267591238022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Ksu-df-3Ei" kind="show" id="Fyw-21-vtc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.87212137310000004" blue="0.66425771550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ijj-zx-KIz"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="冬霜" id="i1C-Df-93A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gpg-YB-Evf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191.19999999999999" y="1441.6256157635469"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="qM5-rq-3UU">
+            <objects>
+                <viewController id="W6O-L7-53P" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dKn-ak-Etg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuyu" translatesAutoresizingMaskIntoConstraints="NO" id="c1Y-jT-Ci8">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kDH-Ng-CCU" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">①、沉沉：指從遠處傳來的斷斷續續的聲音。更(gēng)鼓：舊時一夜分成五更，每更大約兩小時，晚上派專人巡夜，打鼓報道時刻，叫做“打更”，打更用的鼓叫“更鼓”。
+②、絕：這裡是消失的意思。
+③、後兩句是說：把燈吹滅後，因為窗外有月亮，又有雪光映射，所以窗子裡麵反而顯得更加明亮了。
+
+這首詩寫農曆十二月十五日夜間的所見所聞。觀察很細致，體會很深微。全詩用夜深、鼓急、人靜、窗明、雪月交輝這些具體現象描繪了淒清明淨的夜景，讀後仿佛如臨其境一般。</string>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="grX-lr-484" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">沉沉更鼓急， 漸漸人聲絕。
+吹燈窗更明， 月照一天雪。</string>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《十二月十五夜》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EFt-Mh-jXQ">
+                                <rect key="frame" x="95" y="138" width="184" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 清 作者: 袁枚" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JWm-Kb-nZ2">
+                                <rect key="frame" x="105" y="176" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fdf-ql-O0F"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="C80-y4-fMe"/>
+                    <navigationItem key="navigationItem" title="冬霜" id="hsE-t9-AcL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jse-0T-hdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="1442.3645320197045"/>
+        </scene>
+        <!--haru2-->
+        <scene sceneID="6bD-B2-jbT">
+            <objects>
+                <viewController id="9du-ea-6MM" userLabel="haru2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yxa-BB-QFC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuyu" translatesAutoresizingMaskIntoConstraints="NO" id="Kmq-mi-Pih">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SZt-sr-hfV" userLabel="本文">
+                                <rect key="frame" x="60" y="402" width="255" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">【注釋】：
+　　這首詩用極其凝煉的詩筆，描畫出一幅以旅客暮夜投宿、山家風雪人歸為素材的寒山夜宿圖。詩是按時間順序寫下來的。首句寫旅客薄暮在山路上行進時所感，次句寫到達投宿人家時所見，後兩句寫入夜後在投宿人家所聞。每句詩都構成一個獨立的畫麵，而又彼此連屬。詩中有畫，畫外見情。
+
+　　詩的開端，以「日暮蒼山遠」五個字勾畫出一個暮色蒼茫、山路漫長的畫麵。詩句中並冇有明寫人物，直抒情思，但使讀者感到其人呼之欲出，其情浮現紙上。這裡，點活畫麵、托出詩境的是一個「遠」字。它給人以暗示，引人去想象。從這一個字，讀者自會想見有人在暮色來臨的山路上行進，並推知他的孤寂勞頓的旅況和急於投宿的心情。接下來，詩的次句使讀者的視線跟隨這位行人，沿著這條山路投向借宿人家。天寒白屋貧」是對這戶人家的寫照；而一個「貧」字，應當是從遙遙望見茅屋到叩門入室後形成的印象。上句在「蒼山遠」前先寫「日暮」，這句則在「白屋貧」前先寫「天寒」，都是增多詩句層次、加重詩句分量的寫法。漫長的山路，本來已經使人感到行程遙遠，又眼看日暮，就更覺得遙遠；簡陋的茅屋，本來已經使人感到境況貧窮，再時逢寒冬，就更顯出貧窮。而聯係上下句看，這一句裡的「天寒」兩字，還有其承上啟下作用。承上，是進一步渲染日暮路遙的行色；啟下，是作為夜來風雪的伏筆。
+
+　　這前兩句詩，合起來隻用了十個字，已經把山行和投宿的情景寫得神完氣足了。後兩句詩「柴門聞犬吠，風雪夜歸人」，寫的是借宿山家以後的事。在用字上，「柴門」上承「白屋」，「風雪」遙承「天寒」，而「夜」則與「日暮」銜接。這樣，從整首詩來說，雖然下半首另外開辟了一個詩境，卻又與上半首緊緊相扣，不使讀者感到上下脫節。但這裡，在承接中又有跳越。看來，「聞犬吠」既在夜間，山行勞累的旅人多半已經就寢；而從暮色蒼茫到黑夜來臨，從寒氣侵人到風雪交作，從進入茅屋到安頓就寢，中間有一段時間，也應當有一些可以描寫的事物，可是詩筆跳過了這段時間，略去了一些情節，既使詩篇顯得格外精煉，也使承接顯得更加緊湊。詩人在取舍之間是費了一番斟酌的。如果不下這番剪裁的功夫，也許下半首詩應當進一步描寫借宿人家境況的蕭條，寫山居的荒涼和環境的靜寂，或寫夜間風雪的來臨，再不然，也可以寫自己的孤寂旅況和投宿後靜夜所思。但詩人撇開這些不去寫，出人意外地展現了一個在萬籟俱寂中忽見喧鬨的犬吠人歸的場麵。這就在尺幅中顯示變化，給人以平地上突現奇峰之感。
+
+　　就寫作角度而言，前半首詩是從所見之景著墨，後半首詩則是從所聞之聲下筆的。因為，既然夜已來臨，人已就寢，就不可能再寫所見，隻可能寫所聞了。「柴門」句寫的應是黑夜中、臥榻上聽到的院內動靜；「風雪」句應也不是眼見，而是耳聞，是因聽到各種聲音而知道風雪中有人歸來。這裡，隻寫「聞犬吠」，可能因為這是最先打破靜夜之聲，也是最先入耳之聲，而實際聽到的當然不隻是犬吠聲，應當還有風雪聲、叩門聲、柴門啟閉聲、家人回答聲，等等。這些聲音交織成一片，儘管借宿之人不在院內，未曾目睹，但從這一片嘈雜的聲音足以構想出一幅風雪人歸的畫麵。
+
+　　詩寫到這裡，含意不伸，戛然而止，冇有多費筆墨去說明傾聽這些聲音、構想 這幅畫麵的借宿之人的感想，但從中透露的山居荒寒之感，由此觸發的旅人靜夜之情，都不言自見，可想而知了。
+
+　　（陳邦炎）</string>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z6q-wD-zkK" userLabel="註釋">
+                                <rect key="frame" x="60" y="238" width="255" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">日暮蒼山遠， 天寒白屋貧。
+柴門聞犬吠， 風雪夜歸人。</string>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="《逢雪宿芙蓉山》" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1oI-PH-381">
+                                <rect key="frame" x="95" y="138" width="184" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年代: 唐 作者: 王維" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fH-D2-ebH">
+                                <rect key="frame" x="105" y="176" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.1491565406" green="0.14543336630000001" blue="0.1245426759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="UGO-Kh-kYf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="gmq-vi-mDj"/>
+                    <navigationItem key="navigationItem" title="冬霜" id="Y24-4Y-6pO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7j-pV-Q3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2996" y="1442.3645320197045"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="B_aki" width="120" height="138"/>
+        <image name="B_fuyu" width="120" height="138"/>
+        <image name="B_haru" width="120" height="138"/>
+        <image name="B_natsu" width="120" height="138"/>
+        <image name="aki" width="650" height="661"/>
+        <image name="bb1" width="120" height="40"/>
+        <image name="bb2" width="120" height="40"/>
+        <image name="bb3" width="120" height="40"/>
+        <image name="bb4" width="120" height="40"/>
+        <image name="fuyu" width="650" height="975"/>
+        <image name="hajime" width="650" height="923"/>
+        <image name="haru" width="1242" height="1863"/>
+        <image name="ji-hajime" width="192" height="75"/>
+        <image name="natsu" width="650" height="1155"/>
+        <image name="t-aki" width="32" height="30"/>
+        <image name="t-fuyu" width="28" height="32"/>
+        <image name="t-hajime" width="32" height="32"/>
+        <image name="t-haru" width="32" height="28"/>
+        <image name="t-natsu" width="32" height="21"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="3hQ-0H-8jb"/>
+        <segue reference="GPi-k4-b31"/>
+        <segue reference="3U8-A2-met"/>
+        <segue reference="itF-Z5-TLS"/>
+    </inferredMetricsTieBreakers>
+</document>
